@@ -17,7 +17,8 @@ function round(num, numDecimalPlaces)
     return math.floor(num * mult + 0.5) / mult
 end
 
--- Main update loop
+-- Main update loop (NOT IN USE)
+--[[
 Citizen.CreateThread(function() 
     while true do
         Citizen.Wait(1000) 
@@ -39,3 +40,4 @@ Citizen.CreateThread(function()
         end
     end
 end)
+]]--
